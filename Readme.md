@@ -1,12 +1,23 @@
-## Aerospace Structure Manufacturing Process Optimization
-### Project Overview
+# Composite Manufacturing Project
 
-This project delves into optimizing the manufacturing process of aerospace structures, specifically focusing on the co-curing method used to create honeycomb sandwich structures. We aim to understand and minimize defects, like porosity and poorly formed adhesive fillets, in the final product.
+## Overview
+This repository contains the work and findings of a project focused on composite manufacturing. It includes datasets, modeling scripts, optimization notebooks, and a detailed problem statement.
 
-### Approach
+## Purpose
+The primary purpose of this project is to explore and optimize the manufacturing processes of composite materials. By analyzing various datasets and employing machine learning models, the project aims to identify key factors that influence the quality and efficiency of composite manufacturing. We use advanced models and simulation tools to predict and optimize the facesheet consolidation level and bond-line porosity. The main goals are to design new cure cycles, enhance manufacturing efficiency, and reduce defects, ultimately leading to improved aerospace structures.
 
-Our approach involves a detailed analysis of the co-curing process, identifying key parameters and their interactions. We use advanced models and simulation tools to predict and optimize the facesheet consolidation level and bond-line porosity. Additionally, real-time visualization methods are employed for direct observation and further refinement of the process.
+### Contents
+- **Dataset**: This folder contains the raw data (`acs_data2.csv`), cleaned data (`acs_data2_cleaned.csv`), preprocessing script (`data_processing.py`), testing data (`oos_testing_data.csv`), predictions (`outofsample_predictions.csv`), and a scaler object (`scaler.pkl`).
+- **Modeling**: This section includes various scripts and Jupyter notebooks for exploratory data analysis, model selection, training, and evaluation. It also contains a folder `Charts` with visualizations of feature importances and partial dependence plots, and a `Models` folder with a saved Random Forest model.
+- **Optimization**: The `Optimization.ipynb` notebook details the optimization techniques used in the project.
+- **Problem Statement**: This folder includes a PowerPoint presentation `IntroductionTo Problem Statement.pptx` that outlines the project's objectives and challenges.
+- **Additional Resources**: The repository also includes a comprehensive `ProjectReport.pdf` and a `LICENSE` file.
 
-### Objectives
+### Getting Started
+To use this repository:
+1. Clone the repo.
+2. Install required dependencies (listed in `data_processing.py` and various modeling scripts).
+3. Explore the datasets and notebooks to understand the project's workflow.
 
-The main goals are to design new cure cycles, enhance manufacturing efficiency, and reduce defects, ultimately leading to improved aerospace structures.
+### License
+This project is licensed under the terms of the [LICENSE](LICENSE) file.
